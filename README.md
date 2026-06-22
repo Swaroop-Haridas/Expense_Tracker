@@ -30,8 +30,6 @@ This project helps users manage their personal expenses securely with authentica
 
 ## How to Run This Project Locally
 
-## How to Run This Project Locally
-
 ### 1. Clone the Repository
 
 ```bash
@@ -81,6 +79,7 @@ npm run dev
 ---
 
 ## Screenshots
+
 ### Register Page
 ![Register Page](1-register.png)
 
@@ -99,7 +98,7 @@ npm run dev
 ---
 
 ## Security Features
-∘ JWT-based Authentication
-∘ Password Hashing with bcryptjs
-∘ Protected API Routes
-∘ User-specific Data Access
+- ∘ JWT-based Authentication
+- ∘ Password Hashing with bcryptjs
+- ∘ Protected API Routes
+- ∘ User-specific Data Access
