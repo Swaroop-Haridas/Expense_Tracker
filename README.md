@@ -30,27 +30,39 @@ This project helps users manage their personal expenses securely with authentica
 
 ## How to Run This Project Locally
 
+## How to Run This Project Locally
+
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Swaroop-Haridas/Expense_Tracker.git
 cd Expense_Tracker
 ```
+
 ### 2. Setup Backend
-```
+
+```bash
 cd backend
 npm install
 ```
-Create a .env file inside backend/ and add:
+
+Create a `.env` file inside `backend/`:
+
+```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=yourSuperSecretKey
 PORT=5000
 ```
+
 Run the backend:
+
+```bash
 npm run dev
 ```
+
 ### 3. Setup Frontend
-```
+
+```bash
 cd ../frontend
 npm install
 npm run dev
