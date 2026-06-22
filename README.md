@@ -78,6 +78,8 @@ npm run dev
 5. Edit/delete any of your own expenses.
 6. Logout when done — data remains private to your account.
 
+---
+
 ## Screenshots
 ### Register Page
 ![Register Page](1-register.png)
@@ -93,6 +95,8 @@ npm run dev
 
 ### Dashboard (Charts)
 ![Dashboard](5-dashboard.png)
+
+---
 
 ## Security Features
 ∘ JWT-based Authentication
