@@ -68,19 +68,19 @@ npm run dev
 
 ## Screenshots
 ### Register Page
-![Register Page](screenshots/1-register.png)
+![Register Page](1-register.png)
 
 ### Login Page
-![Login Page](screenshots/2-login.png)
+![Login Page](2-login.png)
 
 ### Home Page (No Data)
-![Home Empty](screenshots/3-home-empty.png)
+![Home Empty](3-home-empty.png)
 
 ### Home Page (With Data)
-![Home Filled](screenshots/4-home-filled.png)
+![Home Filled](4-home-filled.png)
 
 ### Dashboard (Charts)
-![Dashboard](screenshots/5-dashboard.png)
+![Dashboard](5-dashboard.png)
 
 ## Security Features
 ∘ JWT-based Authentication
