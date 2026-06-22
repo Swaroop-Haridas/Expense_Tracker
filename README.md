@@ -98,7 +98,7 @@ npm run dev
 ---
 
 ## Security Features
-- ∘ JWT-based Authentication
-- ∘ Password Hashing with bcryptjs
-- ∘ Protected API Routes
-- ∘ User-specific Data Access
+- JWT-based Authentication
+- Password Hashing with bcryptjs
+- Protected API Routes
+- User-specific Data Access
