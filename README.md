@@ -1,11 +1,11 @@
-# Expense Tracker 💸
+# Expense Tracker
 
-Welcome to my full-stack Expense Tracker app!
-This project helps users manage their personal expenses — privately and securely.
+Welcome to my full-stack Expense Tracker application.
+This project helps users manage their personal expenses securely with authentication, expense tracking, and visual analytics.
 
 ---
 
-## 🧩 Features
+## Features
 
 - ✅ User Registration and Login (JWT authentication)
 - ✅ Add, edit, and delete your expenses
@@ -16,7 +16,7 @@ This project helps users manage their personal expenses — privately and secure
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer      | Tools Used                                 |
 |------------|---------------------------------------------|
@@ -28,34 +28,34 @@ This project helps users manage their personal expenses — privately and secure
 
 ---
 
-## 🚀 How to Run This Project Locally
+## How to Run This Project Locally
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Swaroop-Haridas/Expense_Tracker.git
 cd Expense_Tracker
-
+```
 ### 2. Setup Backend
-
+```
 cd backend
 npm install
-
+```
 Create a .env file inside backend/ and add:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=yourSuperSecretKey
 PORT=5000
-
+```
 Run the backend:
 npm run dev
-
+```
 ### 3. Setup Frontend
-
+```
 cd ../frontend
 npm install
 npm run dev
-
 ```
+
 ---
 
 ## User Workflow
@@ -67,17 +67,23 @@ npm run dev
 6. Logout when done — data remains private to your account.
 
 ## Screenshots
-### 📝 Register Page
+### Register Page
 ![Register Page](screenshots/1-register.png)
 
-### 🔐 Login Page
+### Login Page
 ![Login Page](screenshots/2-login.png)
 
-### 🏠 Home Page (No Data)
+### Home Page (No Data)
 ![Home Empty](screenshots/3-home-empty.png)
 
-### 🏠 Home Page (With Data)
+### Home Page (With Data)
 ![Home Filled](screenshots/4-home-filled.png)
 
-### 📊 Dashboard (Charts)
+### Dashboard (Charts)
 ![Dashboard](screenshots/5-dashboard.png)
+
+## Security Features
+∘ JWT-based Authentication
+∘ Password Hashing with bcryptjs
+∘ Protected API Routes
+∘ User-specific Data Access
